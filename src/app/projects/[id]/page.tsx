@@ -7,7 +7,7 @@ export default async function Project({params}: { params: { id: string}}){
     console.log(project)
     return (
         <div>
-            <h1>{params.id}</h1>
+            <h1 className="text-3xl font-bold">{project.id}</h1>
             {/*<p>{params.description}</p>*/}
         </div>
     )
